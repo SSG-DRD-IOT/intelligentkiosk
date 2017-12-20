@@ -1,0 +1,20 @@
+{
+  "name": "intelligentkiosk",
+  "version": "1.0.0",
+  "description": "Demonstration of Intel's visual retail capabilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.7.9",
+    "electron-builder": "^19.49.0",
+    "electron-rebuild": "^1.6.0",
+    "mqtt": "^2.15.0"
+  },
+  "dependencies": {
+    "mongoose": "^4.13.7"
+  }
+}
