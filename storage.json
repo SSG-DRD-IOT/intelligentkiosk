@@ -434,9 +434,10 @@
     },
     "theme": "vs-dark vscode-theme-defaults-themes-dark_plus-json",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/intel/Documents/intelligentKosk",
+    "pickerWorkingDir": "/home/intel/git",
     "openedPathsList": {
         "workspaces": [
+            "/home/intel/git/intelligentkiosk",
             "/home/intel/Documents/intelligentKosk/intelligentkiosk"
         ],
         "files": []
