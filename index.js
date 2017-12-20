@@ -79,15 +79,17 @@ client.on('message', function (topic, message) {
         if (parseInt(message) == 0) {
             console.log("Launch MSDK");
             setTimeout(function () {
-                if(faces_count == 0)
+                if(faces_count == 0 && isMSDKLaunched == false)
                 {
-                    msdkproc = require('child_process').spawn('/opt/intel/mediasdk/samples/_bin/x64/./sample_decode', ['h264', '-i', '/opt/intel/mediasdk/samples/_bin/content/input.h264', '-r', '-hw']);
+                    isMSDKLaunched = true;
+                    msdkproc = require('child_process').spawn('msdk/./sample_decode', ['h264', '-i', '/opt/intel/mediasdk/samples/_bin/content/input.h264', '-r', '-hw']);
                     msdkproc.stderr.on('data', (data) => {
-                        console.error(`child stderr:\n${data}`);
+                        console.log(`MSDK Message:\n${data}`);
                     });
                 }
                 else
                 {
+                    isMSDKLaunched = false;
                     if (msdkproc != null) msdkproc.kill('SIGINT');
                 }
             }, 15000)
