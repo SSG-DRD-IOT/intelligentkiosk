@@ -160,8 +160,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</label>
 				<div class="search_form" id="search_form">
 					<form id="frmSearch">
-						<input type="text" name="Search" id="txtSearch" placeholder="Search...">
+						<input type="text" name="Search" id="txtSearch" placeholder="Search..." onkeydown="updateVoiceSearch(this);">
 						<input type="submit" value="Search">
+						<div id="voiceproposal" style="color: #ffffff"></div>						
 					</form>
 				</div>
 			</div>
@@ -219,6 +220,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			output += "<a href=\"\" onclick=\"getStorelocation(" + productid + ");\">Find in Store</a>"
 			output += "</div></div></div>";
 			return output;
+		}
+		function updateVoiceSearch(obj)
+		{
+			document.getElementById("voiceproposal").innerHTML = "<strong>You can search by saying:</strong> Alexa, search for \"" + obj.value + "\"";
 		}
 		function submitForm() {
 			var userModel = {};

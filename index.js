@@ -8,12 +8,6 @@ var dbconfig = require('./db/database.js');
 var fs = require('fs');
 const mongoose = require('mongoose'), Schema = mongoose.Schema, ObjectId = Schema.ObjectId;
 
-
-//Launch MSDK application or Integrate it with CV SDK
-//proc.kill('SIGINT');
-
-//Launch MSDK application or Integrate it with CV SDK
-
 var proc_cvsdk = require('child_process').spawn('cvservice/build/./cvservicenew', ['']);
 proc_cvsdk.stderr.on('data', (data) => {
     console.error(`child stderr:\n${data}`);
@@ -92,7 +86,7 @@ client.on('message', function (topic, message) {
                     isMSDKLaunched = false;
                     if (msdkproc != null) msdkproc.kill('SIGINT');
                 }
-            }, 15000)
+            }, 5000)
             mainWindow.webContents.send('reset', -1);
             previousPersonId = -1;
         }
@@ -135,7 +129,12 @@ client.on('message', function (topic, message) {
         }
     }
 })
-
+function alexasearch()
+{
+    //alexa returns keyword
+    
+    //productSearch(keyword, "mainsearch");
+}
 //productSearch("desktop laptop");
 function productSearch(keywords, target) {
     datamodels.ProductModel.searchProductByKeyword(keywords, function (err, products) {
@@ -226,7 +225,7 @@ function loadCategoryData() {
 function loadProductData() {
     //datamodels.ProductModel.remove({});
     datamodels.ProductModel.insertMany([
-        { "productid": "6", "catid": "4", "name": "Galileo", "description": "Galileo board", "image": "galileo.jpg", "price": 400, "keywords": "microprocessor galileo mini computer" }
+        { "productid": "7", "catid": "4", "name": "vPro", "description": "vPro device", "image": "vpro.jpg", "price": 400, "keywords": "remote vpro NUC computer" }
     ]
         , function (err, raw) {
             if (err) console.log(err.message);
@@ -256,7 +255,7 @@ ipcMain.on('registered', function (e, userInfo) {
 
 
 ipcMain.on('register_id', function (user_id) {
-    if(user_id == -1)
+    //if(user_id == -1)
     {
     console.log("Publishing to register!!");
     client.publish("commands/register", "true");
