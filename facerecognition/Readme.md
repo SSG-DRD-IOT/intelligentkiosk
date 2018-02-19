@@ -1,7 +1,7 @@
 # IoT Reference Implementation: How-to Build a Face Access Control Solution
 ## Introduction
 
-The Face Access Control application is one of a series of IoT reference implementations aimed at instructing users on how todevelop a working solution for a particular problem. The solution uses facial recognition as the basis of a control systemfor granting physical access. The application detects and registers the image of a person’s face into a database, recognizesknown users entering a designated area and grants access if a person’s face matches an image in the database.
+The [Face Access Control application](https://github.com/intel-iot-devkit/reference-implementation/edit/master/face-access-control/) is one of a series of IoT reference implementations aimed at instructing users on how todevelop a working solution for a particular problem. The solution uses facial recognition as the basis of a control systemfor granting physical access. The application detects and registers the image of a person’s face into a database, recognizesknown users entering a designated area and grants access if a person’s face matches an image in the database.
 
 From this reference implementation, developers will learn to build and run an application that: 
 * Detects and registers the image of a person’s face into a database 
