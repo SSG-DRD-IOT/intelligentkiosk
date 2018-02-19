@@ -45,10 +45,10 @@ After installation, don't forget to source the CV SDK environment variables:
 
     source /opt/intel/computer_vision_sdk_<version>/bin/setupvars.sh
 
-This will be required for building and running cvservice.To automate this process, you can source the script from `.profile` or `.bashrc`. Alternatively, you can add the variables to`/etc/environment`.
+This will be required for building and running newcvservice.To automate this process, you can source the script from `.profile` or `.bashrc`. Alternatively, you can add the variables to`/etc/environment`.
 
 ### ffmpeg
-This reference implementation uses ffmpeg to compress and stream video output from cvservice to the webservice clients. ffmpegis installed separately from the Ubuntu repositories:
+This reference implementation uses ffmpeg to compress and stream video output from newcvservice to the webservice clients. ffmpegis installed separately from the Ubuntu repositories:
 
     sudo apt update    sudo apt install ffmpeg
 
@@ -58,7 +58,7 @@ This reference implementation uses MQTT to send data between services. To instal
 
     sudo apt update    sudo apt install libssl-dev
 
-Building the executable (from cvservice directory):
+Building the executable (from newcvservice directory):
 
     mkdir build    cd build    cmake ..    make
 
@@ -73,7 +73,7 @@ Building the executable (from cvservice directory):
 
         export MQTT_SERVER=localhost:1883        export MQTT_CLIENT_ID=newcvservice        export FACE_DB=./defaultdb.xml        export FACE_IMAGES=../../webservice/server/node-server/public/profile/
 
-4. From the `cvservice/build` directory start cvservice and pipe to ffmpeg:
+4. From the `newcvservice/build` directory start newcvservice and pipe to ffmpeg:
 
         ./newcvservice 0 2>/dev/null | ffmpeg -f rawvideo -pixel_format bgr24 -video_size vga -i - http://localhost:8090/fac.ffm
 
