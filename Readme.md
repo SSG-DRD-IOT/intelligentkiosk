@@ -1,18 +1,18 @@
-Overview
+**Overview**
 
 The Intelligent Kiosk Sample is a demo showcasing workflows and experiences built on top of the Intel hardware and software optimizations.Most of the experiences are hands-free and autonomous, using the human faces in front of a web camera as the main form of input (thus the word "kiosk" in the name).
 
 A kiosk application where people can search for products using search box or using voice commands. When nobody is close to kiosk, it automatically launches an advertisement using Intel Media SDK. It detects the presence of the people using Intel Computer Vision SDK.It also has an amazing feature of face recognition which will recognize the people and keep track of what they are searching for.If they don’t get any product for their search, it will remember what they have searched for.On next visit of customer, the inventory will be checked and auto search facility asks, “are you still interested in buying these products” and shows the matching products.
 
-Hardware requirements
+**Hardware requirements**
 
 • 6th Generation Intel® Core™ processor or newer or Intel® Xeon® v4, or Intel® Xeon® v5 Processors with Intel® Graphics Technology (if enabled by OEM in BIOS and motherboard) [tested on NUC6i7KYK]•USB Webcam [tested with Logitech* C922x Pro Stream]
 
-Software requirements
+**Software requirements**
 
 • Ubuntu* 16.04•Intel® Media Server Studio•Intel® CV SDK Beta
 
-Installation
+**Installation**
 
 Update NPM and NodeJS to use Electron properly
 http://www.hostingadvice.com/how-to/update-node-js-latest-version/
