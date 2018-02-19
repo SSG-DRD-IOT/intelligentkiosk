@@ -6,7 +6,8 @@ A kiosk application where people can search for products using search box or usi
 
 **Hardware requirements**
 
-- 6th Generation Intel® Core™ processor or newer or Intel® Xeon® v4, or Intel® Xeon® v5 Processors with Intel® Graphics Technology (if enabled by OEM in BIOS and motherboard) [tested on NUC6i7KYK]•USB Webcam [tested with Logitech* C922x Pro Stream]
+- 6th Generation Intel® Core™ processor or newer or Intel® Xeon® v4, or Intel® Xeon® v5 Processors with Intel® Graphics Technology (if enabled by OEM in BIOS and motherboard) [tested on NUC6i7KYK]
+- USB Webcam [tested with Logitech* C922x Pro Stream]
 
 **Software requirements**
 
