@@ -17,9 +17,8 @@ A kiosk application where people can search for products using search box or usi
 
 **Installation**
 
-Update NPM and NodeJS to use Electron properly:
-http://www.hostingadvice.com/how-to/update-node-js-latest-version/
-https://www.techiediaries.com/electron-data-persistence/
+Update NPM and NodeJS to use Electron properly. Ref. http://www.hostingadvice.com/how-to/update-node-js-latest-version/
+and https://www.techiediaries.com/electron-data-persistence/
 
 1. Update the Ubuntu (don't upgrade): sudo apt get update
 2. Install Nodejs Package Manager: sudo apt install npm
