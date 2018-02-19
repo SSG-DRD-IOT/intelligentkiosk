@@ -63,6 +63,6 @@ Building the executable (from newcvservice directory):
     mkdir build    cd build    cmake ..    make
 
 ## Running the application
-From the `newcvservice/build` directory start newcvservice and pipe to ffmpeg:
+From the `newcvservice/build` directory start newcvservice:
 
         ./newcvservice
