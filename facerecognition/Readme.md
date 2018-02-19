@@ -53,11 +53,19 @@ Building the executable (from cvservice directory):
 
 ## Running the application
 1. Start the webservice, both server and front-end components.
+
 2. Start ffserver with:
+
         sudo ffserver -f ./ffmpeg/server.conf
+
 3. Export the needed ENV vars:
+
         export MQTT_SERVER=localhost:1883        export MQTT_CLIENT_ID=cvservice        export FACE_DB=./defaultdb.xml        export FACE_IMAGES=../../webservice/server/node-server/public/profile/
+
 4. From the `cvservice/build` directory start cvservice and pipe to ffmpeg:
+
         ./cvservice 0 2>/dev/null | ffmpeg -f rawvideo -pixel_format bgr24 -video_size vga -i - http://localhost:8090/fac.ffm
+
 5. Browse to:
+
         http://localhost:8080
