@@ -63,20 +63,6 @@ Building the executable (from newcvservice directory):
     mkdir build    cd build    cmake ..    make
 
 ## Running the application
-1. Start the webservice, both server and front-end components.
+From the `newcvservice/build` directory start newcvservice and pipe to ffmpeg:
 
-2. Start ffserver with:
-
-        sudo ffserver -f ./ffmpeg/server.conf
-
-3. Export the needed ENV vars:
-
-        export MQTT_SERVER=localhost:1883        export MQTT_CLIENT_ID=newcvservice        export FACE_DB=./defaultdb.xml        export FACE_IMAGES=../../webservice/server/node-server/public/profile/
-
-4. From the `newcvservice/build` directory start newcvservice and pipe to ffmpeg:
-
-        ./newcvservice 0 2>/dev/null | ffmpeg -f rawvideo -pixel_format bgr24 -video_size vga -i - http://localhost:8090/fac.ffm
-
-5. Browse to:
-
-        http://localhost:8080
+        ./newcvservice
