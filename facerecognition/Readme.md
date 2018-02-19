@@ -8,7 +8,7 @@ From this reference implementation, developers will learn to build and run an ap
 ## How it Works
 The Face Access Control system consists of two main subsystems:
 
-### cvservice * [cvservice](./cvservice) is a C++ application that uses the Intel® Computer Vision SDK (Intel® CV SDK). It connects to a   USB camera (for detecting faces) and then performs facial recognition based on a training data file of authorized users to   determine if a detected person is a known user or previously unknown. Messages are published to a MQTT\* broker when users   are recognized and the processed output frames are written to stdout in raw format (to be piped to ffmpeg for compression   and streaming). Here, the Photography Vision Library is used for facial detection and recognition.
+### cvservice [cvservice](./cvservice) is a C++ application that uses the Intel® Computer Vision SDK (Intel® CV SDK). It connects to a   USB camera (for detecting faces) and then performs facial recognition based on a training data file of authorized users to   determine if a detected person is a known user or previously unknown. Messages are published to a MQTT\* broker when users   are recognized and the processed output frames are written to stdout in raw format (to be piped to ffmpeg for compression   and streaming). Here, the Photography Vision Library is used for facial detection and recognition.
 
 ## Hardware requirements
  * 5th Generation Intel® Core™ processor or newer *or* Intel® Xeon® v4, or Intel® Xeon® v5 Processors with Intel® Graphics Technology (if enabled by OEM in BIOS and motherboard)[[tested on NUC6i7KYK](https://www.intel.com/content/www/us/en/products/boards-kits/nuc/kits/nuc6i7kyk.html)] * USB Webcam [tested with Logitech\* C922x Pro Stream]
