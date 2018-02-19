@@ -29,4 +29,9 @@ and https://www.techiediaries.com/electron-data-persistence/
 7. Install git: sudo apt-get install git
 8. Install latest Intel® CV SDK: https://software.intel.com/en-us/cvsdk-installguide. 
 9. Install Gstreamer Library and MQTT broker: sudo apt-get install libgstreamer0.10-dev mosquitto
-Running the Sample1. Open the directory where the intelligentkiosk application is downloaded2. Run the solution by typing electron .3. Explore the scenarios.
+
+**Running the Sample**
+
+1. Open the directory where the intelligentkiosk application is downloaded
+2. Run the solution by typing electron.
+3. Explore the scenarios.
