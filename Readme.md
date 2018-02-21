@@ -37,10 +37,10 @@ and https://www.techiediaries.com/electron-data-persistence/
 3. Explore the scenarios.
 
 **Troubleshooting**
+
 Error - MQTT NOT started: have you set the ENV varables?
 
 Fix -
 
 export MQTT_SERVER=localhost:1883
-
 export MQTT_CLIENT_ID=cvservicenew
