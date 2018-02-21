@@ -12,9 +12,9 @@ This is a kiosk application where people can search for products using search bo
 **Software requirements**
 
 - Ubuntu* 16.04
-- [Intel® Media Server Studio] (https://software.intel.com/en-us/intel-media-server-studio)
-- [Intel® CV SDK Beta] (https://software.intel.com/en-us/cvsdk-quickstartguide)
-- [Electron] (https://electronjs.org/)
+- [Intel® Media Server Studio](https://software.intel.com/en-us/intel-media-server-studio)
+- [Intel® CV SDK Beta](https://software.intel.com/en-us/cvsdk-quickstartguide)
+- [Electron](https://electronjs.org/)
 
 **Installation**
 
@@ -23,11 +23,23 @@ and https://www.techiediaries.com/electron-data-persistence/
 
 1. Update the Ubuntu (don't upgrade): sudo apt get update
 2. Install Nodejs Package Manager: sudo apt install npm
-3. Update NodeJS https://nodejs.org/en/download/package-manager/ curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs
-4. Install Electron(https://www.npmjs.com/package/electron):  sudo npm install -g electron --unsafe-perm=true --allow-root
-5. Install Mongo DB Server: sudo apt install mongodb-server
-6. Install microsoft code (dev machine only): https://code.visualstudio.com/download
-7. Install git: sudo apt-get install git
+3. Update [NodeJS](https://nodejs.org/en/download/package-manager/)
+```
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs
+```
+4. Install [Electron](https://www.npmjs.com/package/electron):  
+```
+sudo npm install -g electron --unsafe-perm=true --allow-root
+```
+5. Install Mongo DB Server: 
+```
+sudo apt install mongodb-server
+```
+6. Install (Microsoft® Code)[https://code.visualstudio.com/download] (dev machine only)
+7. Install git: 
+```
+sudo apt-get install git
+```
 8. Install latest Intel® CV SDK: https://software.intel.com/en-us/cvsdk-installguide. 
 9. Install Gstreamer Library and MQTT broker: sudo apt-get install libgstreamer0.10-dev mosquitto
 
