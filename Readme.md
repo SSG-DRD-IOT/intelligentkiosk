@@ -14,6 +14,7 @@ This is a kiosk application where people can search for products using search bo
 - Ubuntu* 16.04
 - Intel® Media Server Studio
 - Intel® CV SDK Beta
+- Electron
 
 **Installation**
 
