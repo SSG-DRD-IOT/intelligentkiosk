@@ -259,10 +259,9 @@ E.g., MyIntelPolicy.
 #### 7.	MQTT Explorer Browser Example Application
 Follow the instructions from https://github.com/aws/aws-iot-device-sdk-js#browser
 
-#### Conclusion: - 
+#### Conclusion: -
 
 This example shows how to integrate the Amazon Alexa skill that acts like Text to Speech converter and integrated into web applications.
-
 
 ### Troubleshooting
 
