@@ -12,9 +12,9 @@ This is a kiosk application where people can search for products using search bo
 **Software requirements**
 
 - Ubuntu* 16.04
-- Intel® Media Server Studio
-- Intel® CV SDK Beta
-- Electron
+- [Intel® Media Server Studio] (https://software.intel.com/en-us/intel-media-server-studio)
+- [Intel® CV SDK Beta] (https://software.intel.com/en-us/cvsdk-quickstartguide)
+- [Electron] (https://electronjs.org/)
 
 **Installation**
 
@@ -39,9 +39,9 @@ and https://www.techiediaries.com/electron-data-persistence/
 
 **Troubleshooting**
 
-Error - MQTT NOT started: have you set the ENV varables?
+**Error -** MQTT NOT started: have you set the ENV varables?
 
-Fix -
+**Fix -**
 
 export MQTT_SERVER=localhost:1883
 
