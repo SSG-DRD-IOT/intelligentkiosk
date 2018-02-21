@@ -47,11 +47,6 @@ After installation, don't forget to source the CV SDK environment variables:
 
 This will be required for building and running cvservicenew.To automate this process, you can source the script from `.profile` or `.bashrc`. Alternatively, you can add the variables to`/etc/environment`.
 
-### ffmpeg
-This reference implementation uses ffmpeg to compress and stream video output from cvservicenew to the webservice clients. ffmpegis installed separately from the Ubuntu repositories:
-
-    sudo apt update    sudo apt install ffmpeg
-
 ### cvservicenew
 #### Install Paho\* MQTT\* C client libraries dependencies
 This reference implementation uses MQTT to send data between services. To install the dependencies:
