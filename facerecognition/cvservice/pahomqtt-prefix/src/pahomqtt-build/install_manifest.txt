@@ -1,0 +1,16 @@
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3c.so.1.2.0
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3c.so.1
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3c.so
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3a.so.1.2.0
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3a.so.1
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3a.so
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/bin/MQTTVersion
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/include/MQTTAsync.h
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/include/MQTTClient.h
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/include/MQTTClientPersistence.h
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3cs.so.1.2.0
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3cs.so.1
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3cs.so
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3as.so.1.2.0
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3as.so.1
+/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build/lib/libpaho-mqtt3as.so

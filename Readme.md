@@ -35,3 +35,9 @@ and https://www.techiediaries.com/electron-data-persistence/
 1. Open the directory where the intelligentkiosk application is downloaded
 2. Run the solution by typing electron.
 3. Explore the scenarios.
+
+**Troubleshooting**
+Error - MQTT NOT started: have you set the ENV varables?
+Fix -
+export MQTT_SERVER=localhost:1883
+export MQTT_CLIENT_ID=cvservicenew

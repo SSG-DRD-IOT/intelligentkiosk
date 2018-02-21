@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/test5.dir/test5.c.o  -o test5 -rdynamic ../src/libpaho-mqtt3as.so.1.2.0 -lssl -lcrypto -lc -ldl -lpthread -Wl,-rpath,/home/intel/git/intelligentkiosk/cvservice/build/pahomqtt-prefix/src/pahomqtt-build/src 

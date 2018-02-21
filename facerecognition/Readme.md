@@ -11,8 +11,8 @@ From this reference implementation, developers will learn to build and run an ap
 ## How it Works
 The Face Access Control system consists of two main subsystems:
 
-### newcvservice 
-[newcvservice](./newcvservice) is a C++ application that uses the Intel® Computer Vision SDK (Intel® CV SDK). It connects to a   USB camera (for detecting faces) and then performs facial recognition based on a training data file of authorized users to   determine if a detected person is a known user or previously unknown. Messages are published to a MQTT\* broker when users   are recognized and the processed output frames are written to stdout in raw format (to be piped to ffmpeg for compression   and streaming). Here, the Photography Vision Library is used for facial detection and recognition.
+### cvservicenew 
+[cvservicenew](./cvservicenew) is a C++ application that uses the Intel® Computer Vision SDK (Intel® CV SDK). It connects to a   USB camera (for detecting faces) and then performs facial recognition based on a training data file of authorized users to   determine if a detected person is a known user or previously unknown. Messages are published to a MQTT\* broker when users   are recognized and the processed output frames are written to stdout in raw format (to be piped to ffmpeg for compression   and streaming). Here, the Photography Vision Library is used for facial detection and recognition.
 
 ## Hardware requirements
 * 6th Generation Intel® Core™ processor or newer *or* Intel® Xeon® v4, or Intel® Xeon® v6 Processors with Intel® Graphics Technology (if enabled by OEM in BIOS and motherboard)[[tested on NUC6i7KYK](https://www.intel.com/content/www/us/en/products/boards-kits/nuc/kits/nuc6i7kyk.html)] 
@@ -45,24 +45,24 @@ After installation, don't forget to source the CV SDK environment variables:
 
     source /opt/intel/computer_vision_sdk_<version>/bin/setupvars.sh
 
-This will be required for building and running newcvservice.To automate this process, you can source the script from `.profile` or `.bashrc`. Alternatively, you can add the variables to`/etc/environment`.
+This will be required for building and running cvservicenew.To automate this process, you can source the script from `.profile` or `.bashrc`. Alternatively, you can add the variables to`/etc/environment`.
 
 ### ffmpeg
-This reference implementation uses ffmpeg to compress and stream video output from newcvservice to the webservice clients. ffmpegis installed separately from the Ubuntu repositories:
+This reference implementation uses ffmpeg to compress and stream video output from cvservicenew to the webservice clients. ffmpegis installed separately from the Ubuntu repositories:
 
     sudo apt update    sudo apt install ffmpeg
 
-### newcvservice
+### cvservicenew
 #### Install Paho\* MQTT\* C client libraries dependencies
 This reference implementation uses MQTT to send data between services. To install the dependencies:
 
     sudo apt update    sudo apt install libssl-dev
 
-Building the executable (from newcvservice directory):
+Building the executable (from cvservice directory):
 
     mkdir build    cd build    cmake ..    make
 
 ## Running the application
-From the `newcvservice/build` directory start newcvservice:
+From the `cvservice/build` directory start cvservicenew:
 
-        ./newcvservice
+        ./cvservicenew

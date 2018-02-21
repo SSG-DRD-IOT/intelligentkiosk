@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+b456ee8f3970147e721bd9c0afaa63f3 CMakeFiles/pahomqtt
+bb8a42f2c5a41366123c396343fdebe3 CMakeFiles/pahomqtt-complete
+6d05d053c2b65423100f6c7d07d338ba pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-build
+5ad73d43ff0d9f4b2d647f794fca7184 pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-configure
+7a905b421e177e65a5a11d8e789861eb pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-download
+cb60f43bbde3b9c30673da617893726e pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-install
+b234777e055d5cad1e2d156c68014916 pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-mkdir
+7d454620e108c8b3b15fd3878decc874 pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-patch
+9172c2c46dd507cfef1e1ed9801f1cf2 pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-update

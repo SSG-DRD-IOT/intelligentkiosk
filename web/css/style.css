@@ -4,6 +4,14 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+webview {
+    display:inline-flex;
+    width:640px;
+    height:480px;
+  }
+  webview.hide {
+    visibility: hidden;
+  }
 html, body{
     font-size: 100%;
 	background:	#fff;
@@ -131,7 +139,7 @@ label.icon-search {
 }
 .search_box:checked~.search_form{
     width: 500px;
-    height: 100px;
+    height: 500px;
     padding: 10px;
     top: 44px;
 	transition: height 0.2s ease-out, top 0.2s ease-out, padding 0.2s ease-out, 0.3s width ease-out 0.2s;

@@ -1,0 +1,16 @@
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3c.so.1.2.0
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3c.so.1
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3c.so
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3a.so.1.2.0
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3a.so.1
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3a.so
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/bin/MQTTVersion
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/include/MQTTAsync.h
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/include/MQTTClient.h
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/include/MQTTClientPersistence.h
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3cs.so.1.2.0
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3cs.so.1
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3cs.so
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3as.so.1.2.0
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3as.so.1
+/home/intel/git/intelligentkiosk/cvservice/build/paho-build/lib/libpaho-mqtt3as.so

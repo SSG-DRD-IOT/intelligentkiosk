@@ -1,0 +1,8 @@
+/home/intel/git/intelligentkiosk/cvservice/build/CMakeFiles/install.dir
+/home/intel/git/intelligentkiosk/cvservice/build/CMakeFiles/list_install_components.dir
+/home/intel/git/intelligentkiosk/cvservice/build/CMakeFiles/rebuild_cache.dir
+/home/intel/git/intelligentkiosk/cvservice/build/CMakeFiles/edit_cache.dir
+/home/intel/git/intelligentkiosk/cvservice/build/CMakeFiles/pahomqtt.dir
+/home/intel/git/intelligentkiosk/cvservice/build/CMakeFiles/cvservicenew.dir
+/home/intel/git/intelligentkiosk/cvservice/build/CMakeFiles/install/strip.dir
+/home/intel/git/intelligentkiosk/cvservice/build/CMakeFiles/install/local.dir

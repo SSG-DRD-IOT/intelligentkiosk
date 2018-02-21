@@ -1,0 +1,62 @@
+.tileMe li {
+    display: inline;
+    float: left;
+}
+#log {
+  display: block;
+  color: white;
+  max-width: 60%;
+  overflow: auto;
+  border: 1px solid #F7F7F7;
+}
+
+#audioLog {
+  display: block;
+  color: white;
+  max-width: 60%;
+  overflow: auto;
+  border: 1px solid #F7F7F7;
+}
+
+.spacer {
+   height: 25px ;
+}
+
+.block1 {
+   position: relative ;
+   width:900px ;
+   margin-left: auto ;
+   margin-right: auto ;
+   text-align: center ;
+}
+
+.subscribe {
+   background-color:#303030 ;
+   width: 850px ;
+   text-align: left ;
+   margin-left: auto ;
+   margin-right: auto ;
+   margin-bottom: 2px ;
+   padding-top: 2px ;
+   padding-bottom: 2px ;
+   display: block ;
+   color: #ffffff ;
+}
+
+.settings {
+   background-color:#32CD32 ;
+   width: 500px ;
+   text-align: left ;
+   margin-left: auto ;
+   margin-right: auto ;
+   margin-bottom: 2px ;
+   padding-top: 2px ;
+   padding-bottom: 2px ;
+   display: block ;
+   color: #ffffff ;
+}
+
+p {
+   margin-left: 10px ;
+   margin-right: 10px ;
+}

@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DPAHO_WITH_SSL=TRUE;-DCMAKE_INSTALL_PREFIX=/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-build;-GUnix Makefiles;/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/paho-src'

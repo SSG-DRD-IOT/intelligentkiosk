@@ -1,0 +1,3 @@
+repository='https://github.com/eclipse/paho.mqtt.c.git'
+module=''
+tag=''

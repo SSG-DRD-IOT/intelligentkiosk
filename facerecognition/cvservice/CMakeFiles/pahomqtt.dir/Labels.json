@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/CMakeFiles/pahomqtt"
+		},
+		{
+			"file" : "/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/CMakeFiles/pahomqtt.rule"
+		},
+		{
+			"file" : "/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/CMakeFiles/pahomqtt-complete.rule"
+		},
+		{
+			"file" : "/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-install.rule"
+		},
+		{
+			"file" : "/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-mkdir.rule"
+		},
+		{
+			"file" : "/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-download.rule"
+		},
+		{
+			"file" : "/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-update.rule"
+		},
+		{
+			"file" : "/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-patch.rule"
+		},
+		{
+			"file" : "/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-configure.rule"
+		},
+		{
+			"file" : "/home/intel/Documents/CVSDK_FDFR/face-access-control/cvservice/pahomqtt-prefix/src/pahomqtt-stamp/pahomqtt-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pahomqtt"
+		],
+		"name" : "pahomqtt"
+	}
+}

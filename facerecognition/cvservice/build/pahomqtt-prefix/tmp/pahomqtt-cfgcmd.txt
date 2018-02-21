@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DPAHO_WITH_SSL=TRUE;-DCMAKE_INSTALL_PREFIX=/home/intel/git/intelligentkiosk/cvservice/build/paho-build;-GUnix Makefiles;/home/intel/git/intelligentkiosk/cvservice/build/paho-src'
