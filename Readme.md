@@ -43,4 +43,5 @@ Error - MQTT NOT started: have you set the ENV varables?
 Fix -
 
 export MQTT_SERVER=localhost:1883
+
 export MQTT_CLIENT_ID=cvservicenew
