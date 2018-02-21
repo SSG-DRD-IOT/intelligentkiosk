@@ -128,7 +128,7 @@ exports.handler = function(event, context, callback) {
 
   b.	Click the yellow “Get Started >” button under “Alexa Skills Kit”. Then, click the yellow “Add a New Skill” button on the next page.
 
-![Image of ClientID and Client Secret](https://github.com/SSG-DRD-IOT/intelligentkiosk/blob/master/web/images/Alexa6.jpg)
+![Image of ClientID and Client Secret](https://github.com/SSG-DRD-IOT/intelligentkiosk/blob/master/web/images/Alexa6-2.jpg)
 
   c.	The name of your Amazon Alexa skill must be unique for your account, and the invocation name is what you’ll use to activate the skill. “Alexa, Ask Intel for a {product}”. Note: - You can’t use existing published skill names.
 
