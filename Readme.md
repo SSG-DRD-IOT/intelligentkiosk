@@ -21,8 +21,14 @@ This is a kiosk application where people can search for products using search bo
 Update NPM and NodeJS to use Electron properly. Refer http://www.hostingadvice.com/how-to/update-node-js-latest-version/
 and https://www.techiediaries.com/electron-data-persistence/
 
-1. Update the Ubuntu (don't upgrade): sudo apt get update
-2. Install Nodejs Package Manager: sudo apt install npm
+1. Update the Ubuntu (don't upgrade): 
+```
+sudo apt get update
+```
+2. Install Nodejs Package Manager: 
+```
+sudo apt install npm
+```
 3. Update [NodeJS](https://nodejs.org/en/download/package-manager/)
 ```
 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash - sudo apt-get install -y nodejs
@@ -54,7 +60,7 @@ sudo apt-get install git
 **Error -** MQTT NOT started: have you set the ENV varables?
 
 **Fix -**
-
+```
 export MQTT_SERVER=localhost:1883
-
 export MQTT_CLIENT_ID=cvservicenew
+```
