@@ -33,7 +33,7 @@ Then prepare a temporary workspace and run the script:
 
     mkdir opencl-temp    ./install_OCL_driver2.sh install --workspace opencl-temp
 
-For this application you do not need to recompile the Linux\* kernel thus answer **no** when asked during the installation process. Additional details and instructions are provided in [this article](https://software.intel.com/articles/sdk-for-opencl-gsg).The System Analyzer Utility mentioned in the article can be use to confirm proper installation.
+For this application you do not need to recompile the Linux\* kernel, thus answer **no** when asked during the installation process. Additional details and instructions are provided in [this article](https://software.intel.com/articles/sdk-for-opencl-gsg). The System Analyzer Utility mentioned in the article can be use to confirm proper installation.
 
 #### Download and Install the Intel® CV SDK
 The guide for installing the Intel® CV SDK is offered [here](https://software.intel.com/en-us/cvsdk-quickstartguide-installing-intel-computer-vision-sdk). After completing the registration, download the archive for Ubuntu\*, unpack it, and run the GUI installer:
