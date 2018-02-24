@@ -1,12 +1,12 @@
 **Overview**
 
-The Intelligent Kiosk Sample is a demo showcasing workflows and experiences built on top of the Intel hardware and software optimizations. Most of the experiences are hands-free and autonomous, using the human faces in front of a web camera or speech based instructions as the main form of input (thus the word "kiosk" in the name).
+The Intelligent Kiosk Sample is a demo showcasing workflows and experiences built on top of Intel® hardware and software optimizations. Most of the experiences are hands-free and autonomous, using human faces in front of a web camera, or speech based instructions as the main form of input (thus the word "kiosk" in the name).
 
-This is a kiosk application where people can search for products using search box or using voice commands. When nobody is close to kiosk, it automatically launches an advertisement using Intel Media Server Studio. It detects the presence of the people using Intel Computer Vision SDK. It also has an amazing feature of face recognition which will recognize the people and keep track of what they are searching for. If they don’t get any product for their search, it will remember what they have searched for. On next visit of customer, the inventory will be checked and auto search facility asks, “are you still interested in buying these products” and shows the matching products.
+This is a kiosk application where people can search for products using search box or using voice commands. When nobody is close to kiosk, it automatically launches an advertisement using Intel® Media Server Studio. It detects the presence of the people using the Intel® Computer Vision SDK. It also has an amazing feature called face recognition which will recognize and keep track of what people are searching for. If they don’t find the product in the search, it will remember what they have searched for. The next time the customer visits, the inventory will be checked and the auto search will show the matching products, as well as asking:  “Are you still interested in buying these products?”.
 
 **Hardware requirements**
 
-- 6th Generation Intel® Core™ processor or newer or Intel® Xeon® v4, or Intel® Xeon® v5 Processors with Intel® Graphics Technology (if enabled by OEM in BIOS and motherboard) [tested on NUC6i7KYK]
+- 6th Generation Intel® Core™ processor or newer or Intel® Xeon® processor v4 or v5 with Intel® Graphics Technology (if enabled by OEM in BIOS and motherboard) [tested on NUC6i7KYK]
 - USB Webcam [tested with Logitech* C922x Pro Stream]
 
 **Software requirements**
@@ -18,14 +18,14 @@ This is a kiosk application where people can search for products using search bo
 
 **Installation**
 
-Update NPM and NodeJS to use Electron properly. Refer http://www.hostingadvice.com/how-to/update-node-js-latest-version/
+Update NPM and Node.js\* to get Electron to work properly. Refer http://www.hostingadvice.com/how-to/update-node-js-latest-version/
 and https://www.techiediaries.com/electron-data-persistence/
 
-1. Update the Ubuntu (don't upgrade): 
+1. Update Ubuntu (don't upgrade): 
 ```
 sudo apt get update
 ```
-2. Install Nodejs Package Manager: 
+2. Install Node.js Package Manager: 
 ```
 sudo apt install npm
 ```
@@ -41,7 +41,7 @@ sudo npm install -g electron --unsafe-perm=true --allow-root
 ```
 sudo apt install mongodb-server
 ```
-6. Install (Microsoft® Code)[https://code.visualstudio.com/download] (dev machine only)
+6. Install (Microsoft* Code)[https://code.visualstudio.com/download] (dev machine only)
 7. Install git: 
 ```
 sudo apt-get install git
@@ -51,8 +51,8 @@ sudo apt-get install git
 
 **Running the Sample**
 
-1. Open the directory where the intelligentkiosk application is downloaded
-2. Run the solution by typing electron.
+1. Open the directory where the intelligentkiosk application is downloaded.
+2. Run the solution by typing: electron
 3. Explore the scenarios.
 
 **Troubleshooting**
