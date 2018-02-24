@@ -1,22 +1,22 @@
-# Alexa Speech to Text (STT) with Web app Integration
+# Amazon Alexa* Speech to Text (STT) with Web app Integration
 
-#### 1.	Create an account in https://developer.amazon.com/ and sign in
+#### 1.	Create an account at https://developer.amazon.com/ and sign in
 
-#### 2.	Navigate to Developer Console from the menu near to top right of the page.
+#### 2.	Navigate to the Developer Console from the menu near to top right of the page.
 
-#### 3.	Create an LWA Security Profile: -
+#### 3.	Create a LWA Security Profile: 
 
-  a.	Click on “Apps & Services”, then “Login with Amazon”
+  a.	Click on “Apps & Services”, then “Login with Amazon.
   
-  b.	Click on “Create a New Security Profile”
+  b.	Click on “Create a New Security Profile”.
   
 ![Image of Create a New Security Profile](https://github.com/SSG-DRD-IOT/intelligentkiosk/blob/master/web/images/Alexa1.jpg)
   
-  c.	Allowed Origins should have the https protocol, IP address as well as localhost of the system with required port number from which the application is intended to be launched. E.g., https://192.168.11.15:9745 and https://localhost:9745
+  c.	Allowed Origins should have the https protocol, IP address, as well as localhost of the system with required port number from which the application is intended to be launched. E.g., https://192.168.11.15:9745 and https://localhost:9745
 
   d.	Allow Return URLs to be in https with IP address as well as localhost and port followed by code and authresponse as two separate entries. E.g., https://192.168.11.15:9745/code, https://192.168.11.15:9745/authresponse, https://localhost:9745/code and https://localhost:9745/authresponse
 
-  e.	Fill in all three required fields to create your security profile and click “Save”. For the purpose of this article, I am using Amazon’s privacy policy URL. Make sure to replace the link with a link to your own Data Privacy policy.
+  e.	Fill in all three required fields to create your security profile and click “Save”. For the purpose of this article, I am using the Amazon* privacy policy URL. Make sure to replace the link with a link to your own Data Privacy policy.
 
 ![Image of Saving Security Profile](https://github.com/SSG-DRD-IOT/intelligentkiosk/blob/master/web/images/Alexa2.jpg)
 
@@ -24,23 +24,23 @@
   
 ![Image of ClientID and Client Secret](https://github.com/SSG-DRD-IOT/intelligentkiosk/blob/master/web/images/Alexa3.jpg)
 
-#### 4.	Amazon Lambda Development: -
+#### 4.	Amazon* Lambda Development: -
 
   a.	Open the https://console.aws.amazon.com/lambda/home?region=us-east-1#/  
 
-  b.	Login using the same Amazon account to which your Alexa device is linked (recommended) or create a new account. Note: - For Intel official account one has to get approval for their Intel credentials and access amazon from http://awslogin.intel.com/ . This will in turn opens the Amazon console.
+  b.	Login using the same Amazon account to which your Alexa device is linked (recommended) or create a new account. Note: - For Intel official accounts, one has to get approval for their Intel credentials and access Amazon from http://awslogin.intel.com/ . This will, in turn, open the Amazon console.
 
-  c.	Type Lambda in AWS Services textbox and open it.
+  c.	Type Lambda in the AWS Services textbox and open it.
   
 ![Image of Opening Lambda](https://github.com/SSG-DRD-IOT/intelligentkiosk/blob/master/web/images/Alexa4.jpg)
 
-  d.	Create new function
+  d.	Create a new function.
   
 ![Image of Create new function](https://github.com/SSG-DRD-IOT/intelligentkiosk/blob/master/web/images/Alexa5.jpg)
 
   e.	Enter the name of your Lambda function. This name needs to be unique. For now, you can simply use “HelloWorld". In the top right, it should say “N. Virginia”. If that’s not the case, please select “US-East (N. Virginia)” from the dropdown menu.
 
-  f.	Prepare the lambda code in javascript, bundle it with required node modules and upload the zip file to Function Code. (Attached zip file). Lambda function code inside index.js is as follows:
+  f.	Prepare the lambda code in JavaScript*, bundle it with required node modules, and upload the zip file to Function Code. (Attached zip file). Lambda function code inside index.js is as follows:
 
 ```javascript
 'use strict';
@@ -120,17 +120,17 @@ exports.handler = function(event, context, callback) {
 };
 
 ```
-  g.	Once you’ve created the function, click on the “Event Sources” tab. Then click the blue “Add event source” link, then select “Alexa Skills Kit” from the modal dropdown.
+  g.	Once you’ve created the function, click on the “Event Sources” tab. Then click the blue “Add event source” link, and select “Alexa Skills Kit” from the modal dropdown.
 
-#### 5.	Alexa Skills Development: -
+#### 5.	Alexa* Skills Development: -
 
   a.	Open the Amazon Developer Skills portal:- https://developer.amazon.com/edw/home.html#/skills/list
 
-  b.	Click the yellow “Get Started >” button under “Alexa Skills Kit”. Then, click the yellow “Add a New Skill” button on the next page.
+  b.	Click the yellow “Get Started >” button under “Alexa Skills Kit”. Then click the yellow “Add a New Skill” button on the next page.
 
 ![Image of ClientID and Client Secret](https://github.com/SSG-DRD-IOT/intelligentkiosk/blob/master/web/images/Alexa6-2.jpg)
 
-  c.	The name of your Amazon Alexa skill must be unique for your account, and the invocation name is what you’ll use to activate the skill. “Alexa, Ask Intel for a {product}”. Note: - You can’t use existing published skill names.
+  c.	The name of your Amazon Alexa skill must be unique for your account, and the invocation name is what you’ll use to activate the skill. “Alexa, Ask Intel for a {product}”. Note: - You can’t use an existing, published skill name.
 
   d.	If you can't think of anything else, no worries! You can use “Intel” as the invocation name. Click the yellow “Next” button when you’re ready!
 
@@ -219,11 +219,11 @@ exports.handler = function(event, context, callback) {
 }
 ```
 
-  g.	Apply changes from the button near top right.
+  g.	Click the Apply Changes button on the top right.
 
-  h.	Save Model and Build Model from the menu near top left
+  h.	Click Save Model and Build Model from the menu near top left.
 
-  i.	Navigate to Configuration from the menu near to top right
+  i.	Navigate to Configuration on the top menu bar.
 
   j.	Configuration: - Change the radio button from “HTTPS” to “Lambda ARN”, and select the “No” radio button under "Account Linking". Now we’ll have to go and grab the Lambda Amazon Resource Name (ARN) from our Lambda tab. You still have that open, right?
 
@@ -233,35 +233,35 @@ exports.handler = function(event, context, callback) {
 
   m.	Amazon Skills Test: - After you click “Next” on the “Configuration” tab, you should be on the “Test” tab. Under the “Service Simulator” portion, you’ll be able to enter a sample utterance to trigger your skill. For the “Intel” example you should type something like “a product” On the right you should see the output from the Lambda function you created: “Product”.
 
-#### 6.	Triggering a Lambda function from AWS IOT:-
+#### 6.	Triggering a Lambda function from AWS* IOT:
 
-  a.	AWS IOT Thing, Certificate and Policy should be created.
+  a.	AWS IOT Thing, Certificate and Policy are be created.
 
-  b.	Create a Lambda function
+  b.	Create a Lambda function.
 
-  c.	Create a rule to invoke a Lambda function
+  c.	Create a rule to invoke a Lambda function.
 
-  d.	Test it using the MQTT Client
+  d.	Test it using the MQTT Client.
 
-Details are as follows: -
+Details are as follows: 
 
 * Create a new AWS IOT thing in https://console.aws.amazon.com/iot/home?region=us-east-1#/thinghub
 
 *	Create a new Policy in https://console.aws.amazon.com/iot/home?region=us-east-1#/policyhub
 E.g., MyIntelPolicy.
 
-*	Then click on the created policy which gives details of policy ARN. Copy the policy name from the end of the ARN and save it for further use.
+*	Then click on the created policy which gives details of the policy ARN. Copy the policy name from the end of the ARN and save it for further use.
 
 *	Now test the topic from https://console.aws.amazon.com/iot/home?region=us-east-1#/test
 
-*	Subscribe to a topic, paste the policy name copied before (E.g., MyIntelPolicy). Click Subscribe to topic button. Test this subscription by pasting the same policy name in publish textbox, enter the text to be published inside the JSON and click Publish to topic. Observe the custom messages being displayed as soon as new value is published.
+*	Subscribe to a topic, and paste the policy name copied before (E.g., MyIntelPolicy). Click the Subscribe to topic button. Test this subscription by pasting the same policy name in publish textbox, enter the text to be published inside the JSON, and click Publish to topic. Observe the custom messages being displayed as soon as new value is published.
 
 #### 7.	MQTT Explorer Browser Example Application
 Follow the instructions from https://github.com/aws/aws-iot-device-sdk-js#browser
 
-#### Conclusion: -
+#### Conclusion: 
 
-This example shows how to integrate the Amazon Alexa skill that acts like Text to Speech converter and integrated into web applications.
+This example shows how to integrate an Amazon Alexa skill that acts like Text to Speech converter and integration into web applications.
 
 ### Troubleshooting
 
