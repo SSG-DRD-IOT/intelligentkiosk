@@ -1,7 +1,6 @@
 **Overview**
 
-The Intelligent Kiosk Sample is a demo showcasing workflows and experiences built on top of Intel® hardware and software optimizations. Most of the experiences are hands-free and autonomous, using human faces in front of a web camera, or speech based instructions as the main form of input (thus the word "kiosk" in the name).
-
+The Intelligent Kiosk Sample is a demo showcasing the visual retail scenario built on top of Intel® hardware and software optimizations.
 This is a kiosk application where people can search for products using search box or using voice commands. When nobody is close to kiosk, it automatically launches an advertisement using Intel® Media Server Studio. It detects the presence of the people using the Intel® Computer Vision SDK. It also has an amazing feature called face recognition which will recognize and keep track of what people are searching for. If they don’t find the product in the search, it will remember what they have searched for. The next time the customer visits, the inventory will be checked and the auto search will show the matching products, as well as asking:  “Are you still interested in buying these products?”.
 
 **Hardware requirements**
