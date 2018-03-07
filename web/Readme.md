@@ -32,7 +32,7 @@
 
   c.	Type Lambda in the AWS Services textbox and open it.
   
-![Image of Opening Lambda](https://github.com/SSG-DRD-IOT/intelligentkiosk/blob/master/web/images/Alexa4.jpg)
+![Image of Opening Lambda](https://github.com/SSG-DRD-IOT/intelligentkiosk/blob/master/web/images/Alexa4-new.jpg)
 
   d.	Create a new function.
   
