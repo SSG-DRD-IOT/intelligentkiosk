@@ -1,4 +1,4 @@
-# How-to Build a Intelligent Kiosk Demo #
+# How-to Build an Intelligent Kiosk #
 
 ## Introduction ##
 
@@ -14,7 +14,7 @@ This is a kiosk application where people can search for products using search bo
 
 - Ubuntu* 16.04
 - [Intel® Media Server Studio](https://software.intel.com/en-us/intel-media-server-studio)
-- [Intel® CV SDK Beta](https://software.intel.com/en-us/cvsdk-quickstartguide)
+- [Intel® CV SDK Beta R3](https://software.intel.com/en-us/cvsdk-quickstartguide)
 - [Electron](https://electronjs.org/)
 
 ## Installation ##
